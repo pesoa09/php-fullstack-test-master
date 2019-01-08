@@ -12,4 +12,6 @@ class Match extends Model
     protected $casts = [
         'board' => 'array'
     ];
+
+    
 }

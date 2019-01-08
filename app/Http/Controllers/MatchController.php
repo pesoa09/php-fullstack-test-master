@@ -105,7 +105,7 @@ class MatchController extends Controller {
     * 
     * @return boolean
     */
-    private function isWinner($board){
+    public function isWinner($board){
         
         for($i=0; $i<3; $i++){
             if ($this->verifyRow($board[$i], $board[$i+3], $board[$i+6])) {
